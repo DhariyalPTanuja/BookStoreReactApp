@@ -1,0 +1,31 @@
+.wrapper{
+    height: 50px;
+    min-width: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin-left: 4rem;
+  }
+  .wrapper span{
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 60;
+    cursor: pointer;
+    user-select: none;
+  }
+  .wrapper span.num{
+    font-size: 20px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+  }
+  .info-calss{
+    align-items: center;
+    margin-left: 100px;
+    padding-left: 2%;
+  }
